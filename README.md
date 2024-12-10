@@ -2,7 +2,7 @@
 
 As a part of our platform we have a UI schema editor that helps users create a [JSON Schema](https://json-schema.org/understanding-json-schema/reference) to describe the structure of their desired response from an llm. See below:
 
-![overview](./images/overview.png)
+![overview](./imgs/overview.png)
 
 This is the schema for an object that has two fields:
 1. `person_id` is a number
@@ -10,7 +10,7 @@ This is the schema for an object that has two fields:
 
 Users can delete fields (above), and also change the field type (see below):
 
-![dropdown](./images/dropdown.png)
+![dropdown](./imgs/dropdown.png)
 
 Your task is to create a JSON Schema editor that allows for 2 levels of nested objects, numbers and string types (enough to make this example) and shows the JSON Schema object they are building up. 
 
