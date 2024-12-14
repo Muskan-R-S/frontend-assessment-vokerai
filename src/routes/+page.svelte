@@ -26,6 +26,8 @@
     function add_field(type_input: string, name_input: string, description_input: string) {
         console.log("In add field")
         console.log(type_input)
+        // Made the key as the combination of name and type values 
+        // Asuming that users can only enter unique values for name 
         const key = $editingKey || name_input + type_input;
         const new_entry = { 
             type: type_input, 
