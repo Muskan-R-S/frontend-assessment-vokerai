@@ -156,18 +156,6 @@
 
                 <!-- Main Add/Edit Form -->
                 <form onsubmit={() => add_field($selectedType, $name, $description)}>
-                    <!-- <DropdownMenu.Root>
-                            <DropdownMenu.Trigger><div class="myStyle">{ $selectedType === 'Type' ? 'Select Type' : $selectedType }</div></DropdownMenu.Trigger>
-                            <DropdownMenu.Content>
-                              <DropdownMenu.Group>
-                                <DropdownMenu.Label>Type</DropdownMenu.Label>
-                                <DropdownMenu.Separator />
-                                <DropdownMenu.Item on:click={() => selectedType.set('Number')}><Hash class="icon"/> Number</DropdownMenu.Item>
-                                <DropdownMenu.Item on:click={() => selectedType.set('String')}><CaseUpper class="icon"/> String</DropdownMenu.Item>
-                                <DropdownMenu.Item on:click={() => selectedType.set('Object')}><Braces class="icon"/> Object</DropdownMenu.Item>
-                              </DropdownMenu.Group>
-                            </DropdownMenu.Content>
-                          </DropdownMenu.Root> -->
 
                     <div class="line">
                         <Select.Root portal={null}>
